@@ -1,0 +1,73 @@
+# Program to pick a movie to watch from a dictionary. 
+
+#import that random module ✅
+import random
+
+#initialise dictionary of movies ✅
+MOVIES = {
+        "Snow_White": 1937,
+        "Pinocchio": 1940,
+        "Fantasia": 1940,
+        "Dumbo": 1940,
+        "Bambi": 1942,
+        "Saludos_Amigos": 1943,
+        "Cinderella": 1950,
+        "Treasure_Island":1950,
+        "Alice_in_Wonderland": 1951,
+        "Peter_Pan": 1953,
+        "Mary_Poppins": 1964,
+        "Jungle_Book": 1967,
+        "Bedknobs_and_Broomsticks": 1971,
+        "Robin_Hood": 1973,
+        "Pete's_Dragon": 1997,
+        "Fox_and_the_Hound": 1981,
+        "Tron": 1982,
+        "Honey_I_Shrunk_The_Kids": 1989,
+        "The_Little_Mermaid": 1989,
+        "Beauty_and_the_Beast": 1991, 
+        "Aladdin": 1992,
+        "The_Lion_King": 1994,
+        "Pocahontas": 1995,
+        "A_Goofy_Movie": 1995,
+        "Toy_Story": 1995,
+        "Mulan": 1998,
+        "Tarzan": 1999,
+        "Hercules": 1999,
+        "Toy_Story_2": 1999,
+        "Dinosaur": 2000,
+        "Atlantis": 2001,
+        "Lilo_and_Stich": 2002, 
+        "Brother_Bear": 2003,
+        "The_Incredibles" : 2004,
+        "Enchanted": 2007,
+        "Ratatouille": 2007,
+        "Bolt": 2008, 
+        "Up": 2009, 
+        "Princess-and_the_Frog": 2009,
+        "Tangled": 2010,
+        "Brave": 2012, 
+        "Wreck_it_Ralph": 2012,
+        "Frozen": 2013,
+        "Maleficent": 2014, 
+        "Big_Hero_6": 2014, 
+        "Zootopia": 2016, 
+        "Moana": 2016, 
+        "Coco": 2017,
+        "Frozen_2": 2019,
+        "Luca" : 2021,
+
+    }
+#print the original dictionary ✅
+#print("The original dictionary is : " + str(MOVIES))
+
+#Get random dictionary pair in dictionary ✅
+movie_choice = key, val = random.choice(list(MOVIES.items()))
+
+#print the final result ✅
+print("The movie you should watch is: " + str(movie_choice))
+
+
+
+
+
+
