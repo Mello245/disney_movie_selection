@@ -64,7 +64,7 @@ MOVIES = {
 movie_choice = key, val = random.choice(list(MOVIES.items()))
 
 #print the final result ✅
-print("The movie you should watch is: " + str(movie_choice))
+print("The movie you should watch is: " + str(movie_choice) +"\nEnjoy your movie🍿 🎥  🎞️ ")
 
 
 
